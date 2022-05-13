@@ -18,8 +18,8 @@
 
 👉 Sample screenshots taken
 
-<img src="screenshots/Login" alt="Login - Screen" width="400"/><br>
+<img src="screenshots/Login.png" alt="Login - Screen" width="400"/><br>
 
-<img src="screenshots/Success" alt="Logout - Screen" width="400"/><br>
+<img src="screenshots/Success.png" alt="Logout - Screen" width="400"/><br>
 
-<img src="screenshots/Signup" alt="Signup - Screen" width="400"/><br>
+<img src="screenshots/Signup.png" alt="Signup - Screen" width="400"/><br>
