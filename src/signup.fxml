@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F9CEEE;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scenecontroller">
+   <top>
+      <ImageView fx:id="lockimage" fitHeight="189.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../../Desktop/login/images%20(1).jpg" />
+         </image>
+      </ImageView>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="usernamelabel" layoutX="120.0" layoutY="33.0" text="Username">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="passwordlabel" layoutX="120.0" layoutY="83.0" text="Password">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernametextfield" layoutX="272.0" layoutY="34.0" promptText="username" />
+            <PasswordField fx:id="passwordtextfield" layoutX="272.0" layoutY="84.0" promptText="password" />
+            <Button fx:id="loginbutton" layoutX="279.0" layoutY="164.0" mnemonicParsing="false" onAction="#loginbuttonOnAction" prefHeight="30.0" prefWidth="81.0" text="Log In" textFill="#2f262d" />
+            <AnchorPane layoutX="353.0" layoutY="-3.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="signupbutton" layoutX="48.0" layoutY="168.0" mnemonicParsing="false" onAction="#onAct" prefHeight="30.0" prefWidth="92.0" text="Signup" />
+               </children>
+            </AnchorPane>
+            <Label fx:id="youtrytologn" layoutX="210.0" prefHeight="29.0" prefWidth="138.0" textFill="#c90e0e" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
